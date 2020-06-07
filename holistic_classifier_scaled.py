@@ -237,7 +237,7 @@ def classify_point(point, hyperplane):
     elif boundary < test_point:
         return 'class2'
 '------------------------------------------------------------------------------'
-n_dimensions = '2D'
+n_dimensions = '3D'
 read_data(1, n_dimensions)
 read_data(2, n_dimensions)
 
